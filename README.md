@@ -1,4 +1,4 @@
-# My Operating System Project
+# Building an OS
 
 ## Introduction
 
