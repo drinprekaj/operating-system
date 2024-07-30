@@ -47,7 +47,7 @@ This project is based on a wide range of resources and references, including:
 - [Operating Systems: Three Easy Pieces](https://books.google.com/books/about/Operating_Systems.html?id=0a-ouwEACAAJ&source=kp_book_description): The famous book by Remzi and Andrea Arpaci-Dusseau. Perhaps the most famous book on operating systems.
 - [Operating Systems Concepts](https://books.google.com/books/about/Operating_System_Concepts.html?id=eVtGAQAAIAAJ&source=kp_book_description): A very good book by Abraham Silberschat, Peter B. Galvin, and Greg Gagne.
 - [Modern Operating Systems](https://books.google.com/books/about/Modern_Operating_Systems.html?id=zWLxnQEACAAJ&source=kp_book_description): A more modern book on operating systems by Andrew S. Tanenbaum, who also wrote various other educational texts on computer science.
-- Online tutorials and open-source OS projects.
+- Other online tutorials and open-source OS projects.
 
 ## Contributing
 
