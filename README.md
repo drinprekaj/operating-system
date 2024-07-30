@@ -12,6 +12,8 @@ Creating an operating system is a complex and rewarding challenge that involves 
 - **Bootloader**: Initializes the hardware and loads the kernel.
 - **Other Components**: Includes drivers, system libraries, and user space programs.
 
+Obviously, a project of this magnitude will take a long time (even if it's rudimentary in the end) and these are just the beginning stages of this project. It's particularly difficult because you have to establish all the low-level and funamental pieces of software that get the machine running. You have to worry about things like memory allocation and management, and the most basic forms of communication between the hardware, since without an OS, there's no piece of software to execute commands and follow instructions. That has to be created from scratch.
+
 ## Skills and Knowledge Required
 
 Developing an operating system requires a diverse set of skills and knowledge, including but not limited to:
@@ -37,39 +39,14 @@ Building an operating system requires a variety of tools and resources, includin
 - **QEMU**: An open-source machine emulator and virtualizer, used for testing the OS.
 - **Make**: A build automation tool used to manage compilation.
 
-## Getting Started
-
-To get started with building and testing the operating system, follow these steps:
-
-1. **Clone the Repository**:
-    ```sh
-    git clone https://github.com/yourusername/yourosproject.git
-    cd yourosproject
-    ```
-
-2. **Set Up the Development Environment**:
-    Ensure you have the following tools installed on your system:
-    - `GNU Binutils`
-    - `GCC`
-    - `QEMU`
-    - `Make`
-
-3. **Build the Project**:
-    ```sh
-    make all
-    ```
-
-4. **Run the OS in QEMU**:
-    ```sh
-    make run
-    ```
-
 ## Resources and References
 
 This project is based on a wide range of resources and references, including:
 
 - [OSDev Wiki](https://wiki.osdev.org): Comprehensive resource for OS development.
-- Various books on operating system design and implementation.
+- [Operating Systems: Three Easy Pieces](https://books.google.com/books/about/Operating_Systems.html?id=0a-ouwEACAAJ&source=kp_book_description): The famous book by Remzi and Andrea Arpaci-Dusseau. Perhaps the most famous book on operating systems.
+- [Operating Systems Concepts](https://books.google.com/books/about/Operating_System_Concepts.html?id=eVtGAQAAIAAJ&source=kp_book_description): A very good book by Abraham Silberschat, Peter B. Galvin, and Greg Gagne.
+- [Modern Operating Systems](https://books.google.com/books/about/Modern_Operating_Systems.html?id=zWLxnQEACAAJ&source=kp_book_description): A more modern book on operating systems by Andrew S. Tanenbaum, who also wrote various other educational texts on computer science.
 - Online tutorials and open-source OS projects.
 
 ## Contributing
